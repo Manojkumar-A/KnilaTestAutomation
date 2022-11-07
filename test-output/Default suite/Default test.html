@@ -1,0 +1,203 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Nov 07 14:20:49 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>124 seconds (124972 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.knila.uitest.Knila_AddPatientDetailsTest.TC001()'><b>TC001</b><br>Test class: com.knila.uitest.Knila_AddPatientDetailsTest<br>Test method: Verify user able to login successfully with valid credential<br/>
+<a href="#Output-2038232668" onClick='toggleBox("Output-2038232668", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2038232668" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2038232668">
+<div class="test-message">&emsp;D:\KnilaTest\sampleTestAutomation</div><br/>
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">Verify user able to login successfully with valid credential</font> </strong> </div>&emsp;<div><strong>Steps:</strong></div><!-- Report -->&emsp;<br/>
+<div class="test-message">&emsp;Admin entered in UserName textbox successfully</div><br/>
+<div class="test-message">&emsp;Admin123 entered in Password textbox successfully</div><br/>
+<div class="test-message">&emsp;Laboratory is clicked successfully</div><br/>
+<div class="test-message">&emsp;Login button is clicked successfully</div><br/>
+<div class="test-message">&emsp;Logged in user information retrieved successfully from element</div><br/>
+<div class="test-message">&emsp;User Info : Logged in as Super User (admin) at Laboratory.</div><br/>
+<div class="test-message">&emsp;User logged in successfully&emsp;<a href=".\ScreenShot\TC001_1.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 07 Nov 14:21:17 978 - Find Patient Record</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 07 Nov 14:21:18 041 - Active Visits</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 07 Nov 14:21:18 104 - Capture Vitals</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 07 Nov 14:21:18 182 - Register a patient</small> </font> </div><br/>
+<div class="test-message">&emsp;content type : Register a patient is displayed in Laboratory home page</div><br/>
+<div class="test-message">&emsp;Register a patient is clicked successfully</div><br/>
+<div class="test-message">&emsp;Successfully clicked on content type : Register a patient&emsp;<a href=".\ScreenShot\TC001_2.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;Content information retrieved successfully from element</div><br/>
+<div class="test-message">&emsp;Content Info : Register a patient</div><br/>
+<div class="test-message">&emsp;User successfully navigated to Register Patient Page&emsp;<a href=".\ScreenShot\TC001_3.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;Successfully selected demographic type : Name&emsp;<a href=".\ScreenShot\TC001_4.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;Test entered in Given (required) textbox successfully</div><br/>
+<div class="test-message">&emsp;Patient1 entered in Middle textbox successfully</div><br/>
+<div class="test-message">&emsp;Calab entered in Family Name (required) textbox successfully</div><br/>
+<div class="test-message">&emsp;Gender is clicked successfully</div><br/>
+<div class="test-message">&emsp;Successfully selected demographic type : Gender&emsp;<a href=".\ScreenShot\TC001_5.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;Text to select:Male</div><br/>
+<div class="test-message">&emsp;get available options from dropdown is success[[ChromeDriver: chrome on WINDOWS (0d99aa1e871ddfe84060dda89373bd43)] -> id: gender-field]</div><br/>
+<div class="test-message">&emsp;text is:Male</div><br/>
+<div class="test-message">&emsp;in if</div><br/>
+<div class="test-message">&emsp;Maleselected from dropdown [[ChromeDriver: chrome on WINDOWS (0d99aa1e871ddfe84060dda89373bd43)] -> id: gender-field]</div><br/>
+<div class="test-message">&emsp;Birthdate is clicked successfully</div><br/>
+<div class="test-message">&emsp;Successfully selected demographic type : Birthdate&emsp;<a href=".\ScreenShot\TC001_6.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;10 entered in Day (required) textbox successfully</div><br/>
+<div class="test-message">&emsp;Text to select:February</div><br/>
+<div class="test-message">&emsp;get available options from dropdown is success[[ChromeDriver: chrome on WINDOWS (0d99aa1e871ddfe84060dda89373bd43)] -> id: birthdateMonth-field]</div><br/>
+<div class="test-message">&emsp;text is:Select</div><br/>
+<div class="test-message">&emsp;in else</div><br/>
+<div class="test-message">&emsp;text is:January</div><br/>
+<div class="test-message">&emsp;in else</div><br/>
+<div class="test-message">&emsp;text is:February</div><br/>
+<div class="test-message">&emsp;in if</div><br/>
+<div class="test-message">&emsp;Februaryselected from dropdown [[ChromeDriver: chrome on WINDOWS (0d99aa1e871ddfe84060dda89373bd43)] -> id: birthdateMonth-field]</div><br/>
+<div class="test-message">&emsp;2000 entered in Year (required) textbox successfully</div><br/>
+<div class="test-message">&emsp;Address is clicked successfully</div><br/>
+<div class="test-message">&emsp;Successfully selected demographic type : Address&emsp;<a href=".\ScreenShot\TC001_7.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;Test entered in Address 1 textbox successfully</div><br/>
+<div class="test-message">&emsp;Main Street entered in Address 2 textbox successfully</div><br/>
+<div class="test-message">&emsp;Newyork entered in City/Village textbox successfully</div><br/>
+<div class="test-message">&emsp;NY entered in State/Province textbox successfully</div><br/>
+<div class="test-message">&emsp;USA entered in Country textbox successfully</div><br/>
+<div class="test-message">&emsp;10022 entered in Postal Code textbox successfully</div><br/>
+<div class="test-message">&emsp;Phone Number is clicked successfully</div><br/>
+<div class="test-message">&emsp;Successfully selected demographic type : Phone Number&emsp;<a href=".\ScreenShot\TC001_8.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;8877665544 entered in Phone Number textbox successfully</div><br/>
+<div class="test-message">&emsp;Relatives is clicked successfully</div><br/>
+<div class="test-message">&emsp;Successfully selected demographic type : Relatives&emsp;<a href=".\ScreenShot\TC001_9.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;Text to select:Doctor</div><br/>
+<div class="test-message">&emsp;get available options from dropdown is success[[ChromeDriver: chrome on WINDOWS (0d99aa1e871ddfe84060dda89373bd43)] -> id: relationship_type]</div><br/>
+<div class="test-message">&emsp;text is:Select Relationship Type</div><br/>
+<div class="test-message">&emsp;in else</div><br/>
+<div class="test-message">&emsp;text is:Doctor</div><br/>
+<div class="test-message">&emsp;in if</div><br/>
+<div class="test-message">&emsp;Doctorselected from dropdown [[ChromeDriver: chrome on WINDOWS (0d99aa1e871ddfe84060dda89373bd43)] -> id: relationship_type]</div><br/>
+<div class="test-message">&emsp;Cooper entered in Relation Name textbox successfully</div><br/>
+<div class="test-message">&emsp;Confirm Label is clicked successfully</div><br/>
+<div class="test-message">&emsp;Patients Demogarphics Name: values are displayed as expected</div><br/>
+<div class="test-message">&emsp;Patients Demogarphics Gender: values are displayed as expected</div><br/>
+<div class="test-message">&emsp;Patients Demogarphics Birthdate: values are displayed as expected</div><br/>
+<div class="test-message">&emsp;Patients Demogarphics Address: values are displayed as expected</div><br/>
+<div class="test-message">&emsp;Patients Demogarphics Phone Number: values are displayed as expected</div><br/>
+<div class="test-message">&emsp;Patients Demogarphics Relatives: values are displayed as expected</div><br/>
+<div class="test-message">&emsp;Confirm Button is clicked successfully</div><br/>
+<div class="test-message">&emsp;toasterMsgDisplayedAs : Created Patient Record: Test Patient1 Calab</div><br/>
+<div class="test-message">&emsp;User successfully added Patient Details&emsp;<a href=".\ScreenShot\TC001_10.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;Title In BreadCrumbs retrieved successfully from element</div><br/>
+<div class="test-message">&emsp;title in breadcrumbs : Test Patient1 Calab</div><br/>
+<div class="test-message">&emsp;User successfully navigated to Patient Details Page&emsp;<a href=".\ScreenShot\TC001_11.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;Start Visit is clicked successfully</div><br/>
+<div class="test-message">&emsp;Confirm Visit is clicked successfully</div><br/>
+<div class="test-message">&emsp;Title In BreadCrumbs retrieved successfully from element</div><br/>
+<div class="test-message">&emsp;title in breadcrumbs : Visits</div><br/>
+<div class="test-message">&emsp;User successfully navigated to Patient Details visit Page&emsp;<a href=".\ScreenShot\TC001_12.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;Start Visit is clicked successfully</div><br/>
+<div class="test-message">&emsp;Title In BreadCrumbs retrieved successfully from element</div><br/>
+<div class="test-message">&emsp;title in breadcrumbs : Attachments</div><br/>
+<div class="test-message">&emsp;User successfully navigated to Attachments Page&emsp;<a href=".\ScreenShot\TC001_13.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;Drag & Drop attachment file is clicked successfully</div><br/>
+<div class="test-message">&emsp;Patient1 Test Attachments entered in Attachment Caption textbox successfully</div><br/>
+<div class="test-message">&emsp;Drag & Drop attachment file is clicked successfully</div><br/>
+<div class="test-message">&emsp;Patient details link in breadcrumbs is clicked successfully</div><br/>
+<div class="test-message">&emsp;Title In BreadCrumbs retrieved successfully from element</div><br/>
+<div class="test-message">&emsp;title in breadcrumbs : Test Patient1 Calab</div><br/>
+<div class="test-message">&emsp;User successfully redirected to Patient Details Page&emsp;<a href=".\ScreenShot\TC001_14.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;caption of attachment retrieved successfully from element</div><br/>
+<div class="test-message">&emsp;attachment title text : Patient1 Test Attachments</div><br/>
+<div class="test-message">&emsp;Attachment successfully added in Patient Details Page&emsp;<a href=".\ScreenShot\TC001_15.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 07 Nov 14:22:34 259 - 07.Nov.2022</small> </font> </div><br/>
+<div class="test-message">&emsp;Recent Visits details successfully verified in Patient Details Page&emsp;<a href=".\ScreenShot\TC001_16.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;End Visit is clicked successfully</div><br/>
+<div class="test-message">&emsp;Yes End Visit is clicked successfully</div><br/>
+<div class="test-message">&emsp;Delete Patient is clicked successfully</div><br/>
+<div class="test-message">&emsp;TestCompleted entered in Reason Delete textbox successfully</div><br/>
+<div class="test-message">&emsp;Added reason for delete Patient Record&emsp;<a href=".\ScreenShot\TC001_17.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;Confirm Delete Patient is clicked successfully</div><br/>
+<div class="test-message">&emsp;toasterMsgDisplayedAs : Patient has been deleted successfully</div><br/>
+<div class="test-message">&emsp;User successfully deleted the Patient Details&emsp;<a href=".\ScreenShot\TC001_18.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;Title In BreadCrumbs retrieved successfully from element</div><br/>
+<div class="test-message">&emsp;title in breadcrumbs : Find Patient Record</div><br/>
+<div class="test-message">&emsp;User successfully redirected to Find Patient Record Page&emsp;<a href=".\ScreenShot\TC001_19.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;Test Patient1 Calab entered in Patient Search Box textbox successfully</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 07 Nov 14:22:52 949 - No matching records found</small> </font> </div><br/>
+<div class="test-message">&emsp;Successfully verified that deleted patient record Not listed&emsp;<a href=".\ScreenShot\TC001_20.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-result"><br><font color="green"><strong> Test Passed. </strong></font> </div>&emsp;<br/>
+</div>
+</td>
+<td></td>
+<td>124</td>
+<td>com.knila.uitest.Knila_AddPatientDetailsTest@2796aeae</td></tr>
+</table><p>
+</body>
+</html>
